@@ -1,7 +1,7 @@
 services:
   # ------------ FRONTEND ------------
   - type: static
-    name: farmacenter-frontend
+    name: costehuilense-frontend
     branch: master
     rootDir: frontend-auth
     buildCommand: npm install && npm run build
