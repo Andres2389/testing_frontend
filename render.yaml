@@ -1,0 +1,11 @@
+services:
+  # ------------ FRONTEND ------------
+  - type: static
+    name: farmacenter-frontend
+    branch: master
+    rootDir: frontend-auth
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://testing-backend-2utf.onrender.com
