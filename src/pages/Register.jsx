@@ -124,7 +124,7 @@ const Register = () => {
             ¿Ya tienes cuenta? Inicia sesión
           </Link>
           <Link to="/" className="font-medium hover:text-[#3399FF] transition">
-            Volver al inicio
+            Volver al  inicio
           </Link>
         </div>
       </div>
